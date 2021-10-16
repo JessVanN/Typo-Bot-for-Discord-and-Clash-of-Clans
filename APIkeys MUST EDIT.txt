@@ -1,0 +1,15 @@
+from requests import get
+def get_bearer_key(ipaddressforkey):
+#    ipaddressforkey = get('https://api.ipify.org').text
+    key_text=""
+    if ipaddressforkey == 'put ip address here': #t2micro
+        key_text='put clash key here'
+    elif ipaddressforkey == 'put ip address here': #home
+        key_text='put clash key here'
+
+
+    else:
+        print(ipaddressforkey)
+        key_text="NEED NEW KEY"
+    mykey_getstats = 'Bearer'+' '+ key_text
+    return mykey_getstats

@@ -1,0 +1,3 @@
+tpyo = "put your discord token ehre"
+
+testing ='put another token here'
